@@ -1,0 +1,46 @@
+// FONTS
+$heading-font: "Kanit", sans-serif;
+$heading-font-weight: medium;
+$body-font: "Pridi", serif;
+$body-font-size: 16px;
+$body-line-height: 1.4;
+
+// COLOR
+$purple: #a46cb2;
+$yellow: #ffcc4d;
+$black: #2f2e2e;
+$gray: #f5f5f5;
+$red: #e46062;
+
+// HEADER
+$site-header-bg: #fff;
+$site-header-text: $purple;
+$site-header-shadow: 0 0 1px rgba(0, 0, 0, 0.2); /* $site-header-shadow: none; */
+
+// MOBILE NAV
+$site-nav-m-bg: #f00;
+$site-nav-m-text: #fff;
+
+// BODY
+$main-header-bg: $gray; 
+$main-header-text: $black;
+$main-header-mobile-mb: 15px; /* mb = margin-bottom */
+$main-header-desktop-mb: 40px;
+
+$body-color: $black;
+$body-bg: #fff;
+$link-color: $purple;
+$link-hover-color: $purple;
+$link-active-color: #111;
+$text-muted: #888;
+
+// FOOTER
+$site-footer-bg: #74767a;
+$site-footer-color: #d1cece;
+
+// PATH
+$imgpath: "../img";
+
+
+
+
