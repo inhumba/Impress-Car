@@ -1,1 +1,3 @@
 # Impress-Car
+--
+WordPress Theme
