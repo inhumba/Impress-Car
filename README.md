@@ -1,3 +1,4 @@
 # Impress-Car
 
-WordPress Theme
+WordPress Theme for impressautocar.com
+start with seedtheme
