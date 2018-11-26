@@ -406,6 +406,7 @@ function custom_query_shortcode($atts) {
 				<div class="car-price">฿ <?php the_field('price'); ?></div>
 			<?php endif; ?>
 			<a class="car-button" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" rel="bookmark">ดูรายละเอียด</a>
+			<a class="car-button _right" href="tel:0847307777">โทรหาเรา</a>
 			</div>
 		</div>
           

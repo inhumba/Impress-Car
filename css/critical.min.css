@@ -391,12 +391,13 @@ body.home .main-header {
 
 .site-header {
   background-color: #fff;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
   z-index: 9999;
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.2); }
+  padding: 10px; }
   .site-header.active .site-branding.-alt-logo .custom-logo {
     display: none; }
   .site-header.active .site-branding.-alt-logo .alt-logo {
@@ -413,6 +414,10 @@ body.home .main-header {
 
 .site-branding {
   float: left; }
+
+@media (min-width: 991px) {
+  .site-header {
+    padding: 0; } }
 
 .site-logo {
   float: left; }
@@ -439,7 +444,7 @@ body.home .main-header {
   z-index: 9;
   right: 15px;
   top: 10px;
-  padding-top: 9px; }
+  padding-top: 13px; }
   .site-toggle b {
     font-weight: normal;
     padding-left: 6px;
@@ -773,8 +778,9 @@ body.home .main-header {
 .main-nav .elementor-item {
   color: #2f2e2e !important;
   font-family: "Kanit", sans-serif;
-  font-size: 1.2em;
-  font-weight: 600; }
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 13px 11px !important; }
   .main-nav .elementor-item.elementor-item-active {
     color: #a46cb2 !important; }
 
