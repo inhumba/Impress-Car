@@ -10,9 +10,10 @@
 }
 .main-title {
 	padding: 10px 0 8px;
-	margin: 0;
+	margin: 5px 0 0;
 	color: $main-header-text;
 	font-size: 22px;
+	text-align: center;
 	a{
 		color: $main-header-text;
 	}
@@ -33,6 +34,9 @@
 	margin: 0;
 	font-size: 1em;
 	opacity: .6;
+	padding-left: 0;
+	margin-bottom: 10px;
+	text-align: center;
 	> li {
 		color: $black;
 		display: inline;
@@ -667,6 +671,7 @@ body.page-template-page-form .site-content {
 }
 
 .car-pics {
+	margin-bottom: 20px;
 	._big {
 		margin-bottom: 5px;
 	}
@@ -770,6 +775,7 @@ body.page-template-page-form .site-content {
 		font-size: .8em;
 		margin: 0 10px 20px;
 		width: calc(50% - 20px);
+		height: 200px;
 		.car-info {
 			float: right;
 			padding: 10px;
@@ -803,3 +809,23 @@ body.page-template-page-form .site-content {
 .elementor-html #wh-widget-send-button {
 	display: none;
 }
+
+
+/* eticket */
+.page-id-1047 {
+	.site-header, .site-header-space {
+		display: none;
+	}
+	.eticket-logo {
+		width: 150px;
+		height: 43px;
+	}
+	.header-primary {
+		background-color: #3D1A6E;
+	}
+	.header-secondary {
+		background-color: #FFF;
+	}
+}
+
+

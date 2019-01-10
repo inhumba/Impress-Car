@@ -7,6 +7,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Kanit:400,500,600|Pridi:300,500&amp;subset=thai" rel="stylesheet">
 	<style><?php  echo (file_get_contents( get_template_directory_uri() . '/css/critical.min.css' ));  ?></style>
 	<?php wp_head(); ?>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+	     (adsbygoogle = window.adsbygoogle || []).push({
+	          google_ad_client: "ca-pub-6996196153859863",
+	          enable_page_level_ads: true
+	     });
+	</script>
 </head>
 
 <?php $bodyClass = ''; if (is_active_sidebar( 'headbar' )) { $bodyClass = 'has-headbar'; } ?>
